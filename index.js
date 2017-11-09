@@ -4,7 +4,7 @@ function calculateVertical(beginning, destination){
 }
 
 
-var distanceFromHqInBlocks;
+
 function distanceFromHqInBlocks(calculateVertical, feet){
   return calculateVertical * 264;
 }
