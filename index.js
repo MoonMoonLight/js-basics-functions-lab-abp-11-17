@@ -7,9 +7,9 @@ function distanceFromHqInFeet(){
 }
 
 distanceTravelledInFeet - 400
-400 2000 = 2 * distanceTravelledInFeet
-2000 2500 = flat fare
+400< distanceTravelledInFeet < 2000 = 2 * distanceTravelledInFeet
+2000 2500 = "Flat Fare";
 distanceTravelledInFeet > 2500{
-  return "Cannot travel that far"
+  return "Cannot travel that far";
 }
 calculatesFarePrice
