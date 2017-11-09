@@ -1,8 +1,12 @@
 // Code your solution in this file!
+function calculateVertical(beginning, destination){
+  return destination - beginning;
+}
+
 
 var distanceFromHqInBlocks;
-function distanceFromHqInBlocks(){
-
+function distanceFromHqInBlocks(calculateVertical, feet){
+  return calculateVertical * 264;
 }
 function distanceFromHqInFeet(){
   return distanceFromHqInBlocks * 264;
